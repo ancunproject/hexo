@@ -9,20 +9,20 @@ With collaborators from initially repository:
 - **Ivan.Nginx**: [DIFF highlight](https://github.com/iissnan/hexo-theme-next/pull/1079),
                   [HyperComments](https://github.com/iissnan/hexo-theme-next/pull/1155),
                   [notestag](https://github.com/iissnan/hexo-theme-next/pull/1160),
-                  [`seooption](https://github.com/iissnan/hexo-theme-next/pull/1311),
+                  [tagseooption](https://github.com/iissnan/hexo-theme-next/pull/1311),
                   [buttontag](https://github.com/iissnan/hexo-theme-next/pull/1328),
                   [VK API](https://github.com/iissnan/hexo-theme-next/pull/1381),
                   [WordCount plugin support](https://github.com/iissnan/hexo-theme-next/pull/1381),
                   [Yandex verification option](https://github.com/iissnan/hexo-theme-next/pull/1381),
                   [exturltag](https://github.com/iissnan/hexo-theme-next/pull/1438),
-                  [`b2toption](https://github.com/iissnan/hexo-theme-next/pull/1438),
-                  [`scrollpercentoption](https://github.com/iissnan/hexo-theme-next/pull/1438),
-                  [`save_scrolloption](https://github.com/iissnan/hexo-theme-next/pull/1574),
+                  [tagb2toption](https://github.com/iissnan/hexo-theme-next/pull/1438),
+                  [tagscrollpercentoption](https://github.com/iissnan/hexo-theme-next/pull/1438),
+                  [tagsave_scrolloption](https://github.com/iissnan/hexo-theme-next/pull/1574),
                   [Star rating](https://github.com/iissnan/hexo-theme-next/pull/1649),
-                  [`mobile_layout_economyoption](https://github.com/iissnan/hexo-theme-next/pull/1697),
+                  [tagmobile_layout_economyoption](https://github.com/iissnan/hexo-theme-next/pull/1697),
                   [tabstag](https://github.com/iissnan/hexo-theme-next/pull/1697),
                   [labeltag](https://github.com/iissnan/hexo-theme-next/pull/1697),
-                  [**`Gemini`** scheme](https://github.com/iissnan/hexo-theme-next/pull/1697),
+                  [**tagGeminitag** scheme](https://github.com/iissnan/hexo-theme-next/pull/1697),
                   [Menu & Sidebar icons in 1 line](https://github.com/iissnan/hexo-theme-next/pull/1830),
                   [Sidebar scrollable](https://github.com/iissnan/hexo-theme-next/pull/1898),
                   [Responsive favicons](https://github.com/iissnan/hexo-theme-next/pull/1898)
@@ -60,23 +60,23 @@ And best contributors from initially repository:
 - **Hui Wang**: [Wechat subscriber](https://github.com/iissnan/hexo-theme-next/pull/788)
 - **PoonChiTim**: [Busuanzi counter](https://github.com/iissnan/hexo-theme-next/pull/809)
 - **hydai**: [Facebook comments](https://github.com/iissnan/hexo-theme-next/pull/925)
-- **OAwan**: [`canonicaloption](https://github.com/iissnan/hexo-theme-next/pull/931)
+- **OAwan**: [tagcanonicaloption](https://github.com/iissnan/hexo-theme-next/pull/931)
 - **Jim Zenn**: [Google Calendar](https://github.com/iissnan/hexo-theme-next/pull/1167)
 - **Abner Chou**: [Disqus improvements](https://github.com/iissnan/hexo-theme-next/pull/1173)
 - **Igor Fesenko**: [Application Insights](https://github.com/iissnan/hexo-theme-next/pull/1257)
 - **jinfang**: [Youyan comments](https://github.com/iissnan/hexo-theme-next/pull/1324)
-- **AlynxZhou**: [`canvas_nestoption](https://github.com/iissnan/hexo-theme-next/pull/1327)
+- **AlynxZhou**: [tagcanvas_nestoption](https://github.com/iissnan/hexo-theme-next/pull/1327)
 - **aleon**: [Tencent MTA](https://github.com/iissnan/hexo-theme-next/pull/1408)
 - **asmoker**: [LiveRe comments](https://github.com/iissnan/hexo-theme-next/pull/1415)
 - **Jacksgong**: [Copyright on posts](https://github.com/iissnan/hexo-theme-next/pull/1497)
 - **zhaiqianfeng**: [Changyan comments](https://github.com/iissnan/hexo-theme-next/pull/1514)
-- **zproo**: [`canvas_ribbonoption](https://github.com/iissnan/hexo-theme-next/pull/1565)
-- **jjandxa**: [`three_waves`](https://github.com/iissnan/hexo-theme-next/pull/1534),
-               [`canvas_linesand `canvas_sphere`](https://github.com/iissnan/hexo-theme-next/pull/1595) options
+- **zproo**: [tagcanvas_ribbonoption](https://github.com/iissnan/hexo-theme-next/pull/1565)
+- **jjandxa**: [tagthree_wavestag](https://github.com/iissnan/hexo-theme-next/pull/1534),
+               [tagcanvas_linesand tagcanvas_spheretag](https://github.com/iissnan/hexo-theme-next/pull/1595) options
 - **shenzekun**: [Load bar at the top](https://github.com/iissnan/hexo-theme-next/pull/1689)
 - **elkan1788**: [Upgrade jiathis share](https://github.com/iissnan/hexo-theme-next/pull/1796)
 - **xCss**: [Valine comment system support](https://github.com/iissnan/hexo-theme-next/pull/1811)
-- **Julian Xhokaxhiu**: [`overrideoption](https://github.com/iissnan/hexo-theme-next/pull/1861)
+- **Julian Xhokaxhiu**: [tagoverrideoption](https://github.com/iissnan/hexo-theme-next/pull/1861)
 - **LEAFERx**: [NeedMoreShare2](https://github.com/iissnan/hexo-theme-next/pull/1913)
 - **aimingoo & LEAFERx**: [Gitment supported with Mint](https://github.com/iissnan/hexo-theme-next/pull/1919)
 - **LeviDing**: [Fix the bug of Gitment](https://github.com/iissnan/hexo-theme-next/pull/1944)
