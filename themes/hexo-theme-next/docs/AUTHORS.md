@@ -1,4 +1,4 @@
-# <div align="center">«NexT» Authors</div>
+# «NexT» Authors
 
 NexT theme was initially developed by:
 
