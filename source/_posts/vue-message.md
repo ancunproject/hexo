@@ -6,9 +6,9 @@ tags: vue
 description: '解决使用element-ui组件中的多个message显示无限下排问题'
 ---
 
-#### vue异步调用造成的element-ui组件中的message显示问题 
+## vue异步调用造成的element-ui组件中的message显示问题 
 
-1.重新构建message组件resetMessage
+#### 重新构建message组件resetMessage
 
 element-ui是动态往页面根节点插入message元素来实现弹框效果的，所以
 /**重置message，防止重复点击重复弹出message弹框 */
@@ -38,7 +38,7 @@ return resetMessage(options)
 export const message = resetMessage
 ```
 
-2.在main.js中引用重新构造的message组件
+#### 在main.js中引用重新构造的message组件
 
 ```
 

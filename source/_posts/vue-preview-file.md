@@ -6,11 +6,11 @@ tags: vue
 description: 'vue用文件流预览文件会被浏览器拦截弹窗'
 ---
 
-#### 比较完整的文件预览兼容性问题解决
+## 比较完整的文件预览兼容性问题解决
 
 要在接口调用前创建窗口，要不然会被拦截
 
-​    1. base64图片预览
+#### base64图片预览
 
 ```
 const img = new Image();
@@ -20,13 +20,13 @@ winRef.document.title = fileName
 winRef.document.close();
 ```
 
-​     2. 入口
+#### 入口
 ```
 <a v-if="/\XLSX|XLS|HTML|HTM|PDF|JPG|JPEG|PNG|BMP|GIF|DOC|DOCX$/.test(scope.row.fileSuffix.toUpperCase())" href="javascript:;" @click="previewPic(scope.row.fileUrl, scope.row.fileName, scope.row.fileSuffix)">{{scope.row.fileName}}</a>
 
 <a v-else href="javascript:;" @click="openImg(scope.row.fileUrl, scope.row.fileName, scope.row.fileSuffix)">{{scope.row.fileName}}</a>
 ```
-​     3. 操作
+#### 操作
 ```
 previewPic (url, fileName, fileSuffix) {
       let newpage = this.$router.resolve({
@@ -119,7 +119,7 @@ previewPic (url, fileName, fileSuffix) {
       }
     }
 ```
-​     4. 跳转处理页面
+#### 跳转处理页面
 ```
 <template>
   <div>

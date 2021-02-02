@@ -14,15 +14,15 @@ description: '注册并使用github创建静态页面流程'
 
 ​	登录之后创建仓库
 
-![img]({{ site.github.url }}/assets/img/git/git_image_1.png)
+![img](/assets/git/git_image_1.png)
 
 **如果是个人单页的话输入的仓库名要是username.github.io形式的**
 
-![img]({{ site.github.url }}/assets/img/git/git_image_2.png)
+![img](/assets/git/git_image_2.png)
 
 如下图仓库就建好了，不过只有readme.md文件
 
-![img]({{ site.github.url }}/assets/img/git/git_image_3.png)
+![img](/assets/git/git_image_3.png)
 
 3.创建SSH-key，是用来决定你的本地电脑是不是可以修改这个仓库
 
@@ -30,11 +30,11 @@ description: '注册并使用github创建静态页面流程'
 
 4.创建项目后进入仓库-》setting，然后拉到最下面，有个GitHub Pages设置，这一步很重要，不设置的话网页打开没内容
 
-![img]({{ site.github.url }}/assets/img/git/git_image_4.png)
+![img](/assets/git/git_image_4.png)
 
 选择要使用的分支和路径，然后点击save保存，如下图说明设置成功了，可以访问所给的网页了
 
-![img]({{ site.github.url }}/assets/img/git/git_image_5.png)
+![img](/assets/git/git_image_5.png)
 
 5.仓库创建以后可以上传代码
 

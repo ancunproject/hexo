@@ -4,10 +4,11 @@ author: "Luo"
 categories: notes
 tags: [js,css]
 description: '列举记录工作中遇到的一些代码'
-image: city-3.jpg
 ---
 
-##### 1. 判断操作系统js
+## 常见小问题
+
+#### 判断操作系统js
 
 ```
 let u = navigator.userAgent
@@ -19,7 +20,7 @@ if (u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)) {
 }
 ```
 
-##### 2. 切换
+#### 切换
 
 ```
 function tabs(tabTit, on, tabCon) {
@@ -38,7 +39,7 @@ function tabs(tabTit, on, tabCon) {
 tabs(".ul-1", "current", ".ul-2")
 ```
 
-##### 3. 映射
+#### 映射
 
 ```
 1. return {
@@ -53,11 +54,16 @@ or
 return map[val] ? map[val] : '未知'
 ```
 
+#### 滑动条距离
+
+```
+window.pageYOffset
+```
 
 
-##### 4.不常见样式设置
+## 不常见样式设置
 
-修复行内图片默认样式
+#### 修复行内图片默认样式
 
 ```
 img {
@@ -66,7 +72,7 @@ img {
 }
 ```
 
-彩虹滚动条，仅对Chrome系浏览器生效
+#### 彩虹滚动条，仅对Chrome系浏览器生效
 
 ```
 ::-webkit-scrollbar {
@@ -78,7 +84,7 @@ img {
 }
 ```
 
-选中字体颜色
+#### 选中字体颜色
 
 ```
 ::selection {

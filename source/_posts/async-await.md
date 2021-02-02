@@ -6,7 +6,7 @@ tags: js
 description: 'async作为一个关键字放到函数前面，代表这个函数是一个异步函数'
 ---
 
-##### 1. async的使用
+#### async的使用
 
 async作为一个关键字放到函数前面，代表这个函数是一个异步函数，意思是说该函数的执行不会影响到后面代码的执行。
 
@@ -24,7 +24,6 @@ console.log('我是异步函数后面的代码哦')
 
 ```
 我是异步函数后面的代码哦
->
 ```
 
 异步函数没有返回结果，打印函数返回：
@@ -37,7 +36,7 @@ console.log(home())
 console.log('我是异步函数后面的代码哦')
 ```
 
-![](img/async/asyne_img_1.png)
+![img](/assets/async/asyne_img_1.png)
 
 可以看到异步函数返回的是一个promise对象，如果要获取promise的返回值，用以下两种方法可以获取：
 
@@ -55,16 +54,14 @@ home().then(result => {
 我是异步函数后面的代码哦
 Hello!!!!!!!
 
-
 or
-
 
 home().catch(err => {
 	console.log(err)
 })
 ```
 
-##### 2. async和await的使用
+#### async和await的使用
 
 适用场景：项目需要调用很多接口，有时候后面的接口需要前一个接口的返回结果，如果前一个接口挂了，后面的接口也不需要调用了
 
@@ -100,7 +97,7 @@ methods: {
     }
 }
 ```
-async/await写法:
+#### async/await写法:
 
 ```
 methods: {
@@ -133,9 +130,7 @@ methods: {
     }
 }
 
-
 or
-
 
 function doubleAfter2seconds(num) {
     return new Promise((resolve, reject) => {
@@ -154,7 +149,7 @@ testResult();
 ```
 
 
-##### 3. 注意事项
+#### 注意事项
 
 1. `async` 和 `await` 基于 promise 的。 使用 async 的函数将会始终返回一个 promise 对象
 2. 在使用 `await` 的时候我们暂停了函数，而非整段代码
